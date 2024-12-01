@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.intro h2 span {
+    color: #ffd700;
+}
+
+.btn {
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+#skills, #projects, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    width: 200px;
+}
+
+.bar {
+    background-color: #ddd;
+    height: 20px;
+    width: 100%;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background-color: #007bff;
+}
+
+.html { width: 90%; }
+.css { width: 85%; }
+.javascript { width: 80%; }
+.react { width: 70%; }
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background:#fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+footer {
+    background: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
